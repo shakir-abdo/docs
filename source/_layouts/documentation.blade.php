@@ -89,6 +89,47 @@
     <div id="sidebar" class="hidden absolute z-90 top-16 bg-white w-full border-b -mb-16 lg:-mb-0 lg:static lg:bg-transparent lg:border-b-0 lg:pt-0 lg:w-1/4 lg:block lg:border-0 xl:w-1/5">
       <div class="lg:block lg:relative lg:sticky lg:top-16 overflow-hidden">
         <nav id="nav" class="px-6 pt-6 overflow-y-auto text-base lg:text-sm lg:py-12 lg:pl-6 lg:pr-8 sticky?lg:h-(screen-16)">
+          <div>
+            <ul>
+              <li>
+                <a href="/docs/installation" class="flex items-center">
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path class="fill-current text-gray-500" d="M12 21a2 2 0 0 1-1.41-.59l-.83-.82A2 2 0 0 0 8.34 19H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4a5 5 0 0 1 4 2v16z"/>
+                    <path class="fill-current text-gray-800" d="M12 21V5a5 5 0 0 1 4-2h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4.34a2 2 0 0 0-1.42.59l-.83.82A2 2 0 0 1 12 21z"/>
+                  </svg>
+                  <span class="ml-3 font-medium text-sm text-gray-600">Documentation</span>
+                </a>
+              </li>
+              <li class="mt-4">
+                <a href="/docs/installation" class="flex items-center">
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-brick">
+                    <path class="fill-current text-gray-800" d="M3 6l9 4v12l-9-4V6zm14-3v2c0 1.1-2.24 2-5 2s-5-.9-5-2V3c0 1.1 2.24 2 5 2s5-.9 5-2z"/>
+                    <polygon class="fill-current text-gray-500" points="21 6 12 10 12 22 21 18"/>
+                  </svg>
+                  <span class="ml-3 font-medium text-sm text-gray-600">Component Examples</span>
+                </a>
+              </li>
+              <li class="mt-4">
+                <a href="/docs/installation" class="flex items-center">
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-layers">
+                    <path class="fill-current text-gray-800" d="M2.6 6.09l9-4a1 1 0 0 1 .8 0l9 4a1 1 0 0 1 0 1.82l-9 4a1 1 0 0 1-.8 0l-9-4a1 1 0 0 1 0-1.82z"/>
+                    <path class="fill-current text-gray-500" d="M3.91 10.5l7.68 3.41a1 1 0 0 0 .82 0l7.68-3.41 1.32.59a1 1 0 0 1 0 1.82l-9 4a1 1 0 0 1-.82 0l-9-4a1 1 0 0 1 0-1.82l1.32-.59zm0 5l7.68 3.41a1 1 0 0 0 .82 0l7.68-3.41 1.32.59a1 1 0 0 1 0 1.82l-9 4a1 1 0 0 1-.82 0l-9-4a1 1 0 0 1 0-1.82l1.32-.59z"/>
+                  </svg>
+                  <span class="ml-3 font-medium text-sm text-gray-600">Resources</span>
+                </a>
+              </li>
+              <li class="mt-4">
+                <a href="/docs/installation" class="flex items-center">
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-user-couple">
+                    <path class="fill-current text-gray-800" d="M15 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm7 8a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z"/>
+                    <path class="fill-current text-gray-500" d="M9 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm7 8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z"/>
+                  </svg>
+                  <span class="ml-3 font-medium text-sm text-gray-600">Community</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <hr class="my-8 border-b-2 border-gray-200">
           @foreach ($page->navigation as $sectionName => $sectionItems)
           <div class="mb-8">
             <h5 class="mb-3 lg:mb-2 text-gray-500 uppercase tracking-wide font-bold text-sm lg:text-xs">{{ $sectionName }}</h5>
