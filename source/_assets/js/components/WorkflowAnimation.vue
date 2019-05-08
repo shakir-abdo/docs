@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class="flex flex-col">
-      <div class="shadow-lg code-white text-sm font-mono subpixel-antialiased bg-gray-800 px-5 pb-6 pt-4 rounded-lg leading-normal overflow-hidden" style="width: 36rem; line-height: 1.675">
+      <div class="shadow-lg code-white text-sm font-mono subpixel-antialiased bg-blue-900 px-5 pb-6 pt-4 rounded-lg leading-normal overflow-hidden" style="background-color: #243C5A; width: 36rem; line-height: 1.675">
         <div class="flex mb-4">
           <span class="h-3 w-3 bg-red-500 rounded-full"></span>
           <span class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></span>
           <span class="ml-2 h-3 w-3 bg-green-500 rounded-full"></span>
         </div>
         <div class="whitespace-no-wrap"><!--
-       --><div class="inline-block text-gray-600">1&nbsp;&nbsp;</div><!--
+       --><div class="inline-block text-blue-300 opacity-50">1&nbsp;&nbsp;</div><!--
        --><div class="inline-block code-blue">&lt;</div><!--
        --><div class="inline-block code-red">div&nbsp;</div><!--
        --><div class="inline-block code-yellow">class</div><!--
@@ -21,7 +21,7 @@
        --><div class="inline-block code-blue">&quot;&gt;</div><!--
      --></div>
         <div class="whitespace-no-wrap"><!--
-       --><div class="inline-block text-gray-600">2&nbsp;&nbsp;</div><!--
+       --><div class="inline-block text-blue-300 opacity-50">2&nbsp;&nbsp;</div><!--
        --><div class="inline-block code-blue">&nbsp;&nbsp;&lt;</div><!--
        --><div class="inline-block code-red">img&nbsp;</div><!--
        --><div class="inline-block code-yellow">class</div><!--
@@ -41,7 +41,7 @@
        --><div class="inline-block code-blue">&quot;&gt;</div><!--
      --></div><!--
      --><div><!--
-       --><div class="inline-block text-gray-600">3&nbsp;&nbsp;</div><!--
+       --><div class="inline-block text-blue-300 opacity-50">3&nbsp;&nbsp;</div><!--
        --><div class="inline-block code-blue">&nbsp;&nbsp;&lt;</div><!--
        --><div class="inline-block code-red">div</div><!--
        --><div ref="classContentCenter" class="inline-block code-green"><!--
@@ -88,7 +88,7 @@
        --><div class="inline-block code-blue">&gt;</div><!--
      --></div><!--
      --><div><!--
-       --><div class="inline-block text-gray-600">4&nbsp;&nbsp;</div><!--
+       --><div class="inline-block text-blue-300 opacity-50">4&nbsp;&nbsp;</div><!--
        --><div class="inline-block code-blue">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</div><!--
        --><div class="inline-block code-red">h2</div><!--
        --><animation-code-text ref="classNameSize" class="inline-block code-green" :text="[
@@ -105,7 +105,7 @@
        --><div class="inline-block code-blue">&gt;</div><!--
      --></div><!--
      --><div><!--
-       --><div class="inline-block text-gray-600">5&nbsp;&nbsp;</div><!--
+       --><div class="inline-block text-blue-300 opacity-50">5&nbsp;&nbsp;</div><!--
        --><div class="inline-block code-blue">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</div><!--
        --><div class="inline-block code-red">div</div><!--
        --><div ref="classRoleColor" class="inline-block code-green"><!--
@@ -142,7 +142,7 @@
        --><div class="inline-block code-blue">&gt;</div><!--
      --></div><!--
      --><div class="whitespace-no-wrap"><!--
-       --><div class="inline-block text-gray-600">6&nbsp;&nbsp;</div><!--
+       --><div class="inline-block text-blue-300 opacity-50">6&nbsp;&nbsp;</div><!--
        --><div class="inline-block code-blue">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</div><!--
        --><div class="inline-block code-red">div</div><!--
        --><div ref="classContactColor1" class="inline-block code-green"><!--
@@ -177,7 +177,7 @@
        --><div class="inline-block code-blue">&gt;</div><!--
      --></div><!--
      --><div class="whitespace-no-wrap"><!--
-       --><div class="inline-block text-gray-600">7&nbsp;&nbsp;</div><!--
+       --><div class="inline-block text-blue-300 opacity-50">7&nbsp;&nbsp;</div><!--
        --><div class="inline-block code-blue">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</div><!--
        --><div class="inline-block code-red">div</div><!--
        --><div ref="classContactColor2" class="inline-block code-green"><!--
@@ -212,13 +212,13 @@
        --><div class="inline-block code-blue">&gt;</div><!--
      --></div><!--
      --><div><!--
-       --><div class="inline-block text-gray-600">8&nbsp;&nbsp;</div><!--
+       --><div class="inline-block text-blue-300 opacity-50">8&nbsp;&nbsp;</div><!--
        --><div class="inline-block code-blue">&nbsp;&nbsp;&lt;/</div><!--
        --><div class="inline-block code-red">div</div><!--
        --><div class="inline-block code-blue">&gt;</div><!--
      --></div><!--
      --><div><!--
-       --><div class="inline-block text-gray-600">9&nbsp;&nbsp;</div><!--
+       --><div class="inline-block text-blue-300 opacity-50">9&nbsp;&nbsp;</div><!--
        --><div class="inline-block code-blue">&lt;/</div><!--
        --><div class="inline-block code-red">div</div><!--
        --><div class="inline-block code-blue">&gt;</div><!--

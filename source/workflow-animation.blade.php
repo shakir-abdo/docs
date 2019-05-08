@@ -12,6 +12,13 @@
       --color-code-red: #ff8383;
       --color-code-blue: #93ddfd;
       --color-code-white: #fff;
+
+      --color-code-green: #a5ffcf;
+      --color-code-yellow: #fff2b3;
+      --color-code-purple: #d9a9ff;
+      --color-code-red: #ff98c7;
+      --color-code-blue: #93ddfd;
+      --color-code-white: #fff;
     }
   </style>
 </head>
